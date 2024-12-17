@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    font-family: "Oswald", sans-serif;
+    background-color:  #A8E6CF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color:  #333333;
+    
+}
+marquee{
+    background-color: #D1F2EB;
+    margin-bottom: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+    margin-top: 4px;
+}
+
+footer {
+    text-align: right;
+    font-family: "Oswald", sans-serif;
+    position: fixed;
+    bottom: 10px;
+}
+
+nav {
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    display: flex;
+    font-size: 20px;
+    background-color: #4ECDC4;
+    margin: 0 0px;
+    padding: 30px;
+    color:  #333333;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0px 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+nav li a:hover {
+    color:  #FFB6B9;
+}
+
+
+.container form {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;        
+    font-size: 10px;
+    margin: 10px 10px;
+    margin-top: 10px;
+    width: 80%;
+    flex-wrap: wrap;      
+    flex-direction: column;        
+}
+
+
+
+/* Label styling */
+.container form label {
+    font-size: 20px;
+    margin-bottom: 5px;   
+    margin: 0 10px;         
+}
+
+
+.container form input,
+.container form select {
+    display: flexbox;
+    margin-bottom: 40px;
+    height: 30px;
+    font-size: 16px;               
+    padding: 5px;  
+    flex-direction: row;    
+       
+}
+.container img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    align-self: center;
+}
+
+.btn {
+    padding: 12px 23px;
+    font-size: 23px;
+    background: #FF8C94;
+    color: #333333;
+    border-radius: 13px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-bottom: 30px;
+}
+
+/* Table styling */
+table {
+    width: 600px;
+    table-layout: fixed;
+    text-align: center;
+    border: 2px solid #333333;
+    font-size: 20px;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+
+}
+.output{
+    align-self: center;
+    align-items: center;
+    }
+   
+   .container table h2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
